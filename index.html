@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>TravelO</title>
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent ">
+        <div class="container">
+            <a class="navbar-brand t-1" href="#">
+                Travel<span class="o">O</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-4 ">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=#about>About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=#testimonials>Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-secondary me-5" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section  -->
+    <section id="home">
+            <div class="header">
+                <div class="d-flex justify-content-center align-items-center flex-column text-area">
+                    <p class="lead text-center home-para">BE THE PART OF THE WONDERFUL JOURNEY</p>
+                    <h1 class="home-title text-center">KERALA</h1>
+                    <h2 class="home-subTitle text-center md">The God's Own Country</h2>
+                    <button type="button" class="btn btn-outline-success">Explore Now</button>
+                </div>
+            </div>
+    </section>
+
+    <!-- Our Services section -->
+  <section id="services" class="services mt-5 pt-3">
+    <div class="container text-center">
+      <h1 class=" mb-5 pb-5">Our Services</h1>
+
+      <div class="row">
+
+        <div class="col-md-4 pb-5">
+          <i class="fa-solid fa-plane-up fa-5x"></i>
+          <h3 class="pt-4">Flight Tickets</h3>
+        </div>
+
+        <div class="col-md-4 pb-5">
+          <i class="fa-solid fa-hotel fa-5x"></i>
+          <h3 class="pt-4">Hotels</h3>
+        </div>
+        <div class="col-md-4 pb-5">
+          <i class="fa-solid fa-headset fa-5x"></i>
+          <h3 class="pt-4">24X7 Support</h3>
+        </div>
+
+      </div>
+
+      <div class="row mt-4">
+
+        <div class="col-md-4 pb-5">
+          <i class="fa-solid fa-wifi fa-5x"></i>
+          <h3 class="pt-4">Wi-Fi</h3>
+        </div>
+
+        <div class="col-md-4 pb-5">
+          <i class="fa-solid fa-bus fa-5x"></i>
+          <h3 class="pt-4">Transportation</h3>
+        </div>
+
+        <div class="col-md-4 pb-5">
+          <i class="fa-solid fa-utensils fa-5x"></i>
+          <h3 class="pt-4">Traditional Foods</h3>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Book now and Get 50% off section -->
+  <section id="offer" class="offer mt-5 mb-5">
+    <div class="overlay d-flex flex-column align-items-center justify-content-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="display-3 text-white">Book now and Get 25% off</h1>
+            <p class="about-p lead text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint officiis fuga vero. Aut cupiditate sapiente eveniet officiis ratione dignissimos tempora!</p>
+          </div>
+          <div class="col-md-4 d-flex flex-column align-items-center justify-content-center">
+            <button type="button" class="btn btn-success">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- packages section -->
+  <section id="packages" class="packages">
+    <div class="container">
+      <h1 class="mb-5 text-center">Our Packages</h1>
+
+      <div id="carouselExample" class="carousel slide">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                
+                <div class="cards-wrapper">
+                    <div class="card">
+                        <img src="./images/pack1.jpg" height="53%" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="duration">3 Nights 4 Days</p>
+                            <h5 class="card-title">Munnar – Thekkady – Alleppey</h5>
+                            <p class="card-text">Starting @ Rs 8,999/-</p>
+                            <a href="#" class="btn btn-outline-success btn-package">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card d-none d-md-block">
+                        <img src="./images/pack2.jpg" height="53%" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="duration">4 Nights 5 Days</p>
+                          <h5 class="card-title">Cochin – Munnar – Alleppey</h5>
+                            <p class="card-text">Starting @ Rs 9,999/-</p>
+                            <a href="#" class="btn btn-outline-success btn-package">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card d-none d-md-block">
+                        <img src="./images/pack3.jpg" height="53%" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="duration">5 Nights 6 Days</p>
+                            <h5 class="card-title">Kovalam – Munnar – Thekkady</h5>
+                            <p class="card-text">Starting @ Rs 13,999/-</p>
+                            <a href="#" class="btn btn-outline-success btn-package">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                
+                <div class="cards-wrapper">
+                    <div class="card">
+                        <img src="./images/pack4.jpg" height="53%" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="duration">5 Nights 6 Days</p>
+                            <h5 class="card-title">Enchanting Kerala Family Tour</h5>
+                            <p class="card-text">Starting @ Rs 13,999/-</p>
+                            <a href="#" class="btn btn-outline-success btn-package">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card d-none d-md-block">
+                        <img src="./images/pack5.jpg" height="53%" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="duration">6 Nights 7 Days</p>
+                            <h5 class="card-title">Glorious Family Holiday Kerala</h5>
+                            <p class="card-text">Starting @ Rs 16,999/-</p>
+                            <a href="#" class="btn btn-outline-success btn-package">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card d-none d-md-block">
+                        <img src="./images/pack6.jpg" height="53%" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="duration">7 Nights 8 Days</p>
+                          <h5 class="card-title">Rejuvenating Family Kerala Tour</h5>
+                            <p class="card-text">Starting @ Rs 17,999/-</p>
+                            <a href="#" class="btn btn-outline-success btn-package">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                
+                <div class="cards-wrapper">
+                  <div class="card d-none d-md-block">
+                    <img src="./images/pack9.jpg" height="53%" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="duration">2 Nights 3 Days</p>
+                        <h5 class="card-title">Amazing Kerala Budget Tour</h5>
+                        <p class="card-text">Starting @ Rs 3,999/-</p>
+                        <a href="#" class="btn btn-outline-success btn-package">View Details</a>
+                    </div>
+                </div>
+
+                    <div class="card">
+                        <img src="./images/pack7.jpg" height="53%" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="duration">5 Nights 6 Days</p>
+                            <h5 class="card-title">Best Magical Kerala Tour</h5>
+                            <p class="card-text">Starting @ Rs 12,999/-</p>
+                            <a href="#" class="btn btn-outline-success btn-package">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card d-none d-md-block">
+                        <img src="./images/pack8.jpg" height="53%" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="duration">6 Nights 7 Days</p>
+                            <h5 class="card-title">Offbeat kerala Family Package</h5>
+                            <p class="card-text">Starting @ Rs 14,999/-</p>
+                            <a href="#" class="btn btn-outline-success btn-package">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+
+
+    </div>
+  </section>
+
+  <!-- About section -->
+  <section class="pt-5" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/culture.jpg" class="d-block w-100 caro-img img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/culture2.jpg" class="d-block w-100 caro-img img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/culture3.jpg" class="d-block w-100 caro-img img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/img4.jpg" class="d-block w-100 caro-img img-fluid" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 pt-5 about-div">
+          <h1>About Us</h1>
+          <p class="mt-3 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptatum explicabo quod
+            praesentium molestiae itaque aspernatur fuga maxime aut voluptatem iusto suscipit ad ducimus dolore sunt,
+            temporibus dolor sapiente tempora.</p>
+            <button type="button" class="btn btn-outline-info">Read More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Most popular place section -->
+  <section>
+    <div class="container pb-3 pt-2">
+      <h1 class="mb-5 mt-5 text-center">Most Popular Places</h1>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card card-pop">
+            <h2 class="c-1 overlay-c">Alleppey</h2>
+            <img src="./images/alleppey.jpeg" alt="" class="img-card">
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card card-pop">
+            <h2 class="c-1 overlay-c">Kovalam</h2>
+            <img src="./images/kovalam.webp" alt="" class="img-card">
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card card-pop">
+            <h2 class="c-1 overlay-c">Thekkady</h2>
+            <img src="./images/thekkady.jpg" alt="" class="img-card">
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3 mb-5">
+        <div class="col-lg-4">
+          <div class="card card-pop">
+            <h2 class="c-1 overlay-c">Munnar</h2>
+            <img src="./images/Munnar.jpg" alt="" class="img-card">
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card card-pop">
+            <h2 class="c-1 overlay-c">Wayanad</h2>
+            <img src="./images/wayanad.jpg" alt="" class="img-card">
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card card-pop">
+            <h2 class="c-1 overlay-c">Kochi</h2>
+            <img src="./images/kochi.jpg" alt="" class="img-card">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials section -->
+
+
+  <section id="testimonials" class="pt-2">
+    <div class="container">
+      <h1 class="mb-5 text-center">Testimonials</h1>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+
+              <div class="cards-wrapper">
+                <div class="card" style="width: 18rem;">
+                  <div class="testi-div" style="width: 10rem; height: 10rem;">
+                    <img src="./images/avatar1.jpg" class="card-img-top testi-img " alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h4 class="testi-name text-center">Aisha</h4>
+                    <p class="text-center">İstanbul, Turkey</p>
+                    <p class="text-center testi-star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                    <p class="card-text testi-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla esse perferendis ipsam libero."</p>
+                  </div>
+                </div>
+    
+                <div class="card d-none d-md-block" style="width: 18rem;">
+                  <div class="testi-div" style="width: 10rem; height: 10rem;">
+                    <img src="./images/avatar2.jpg" class="card-img-top testi-img " alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h4 class="testi-name text-center">Mark Chen</h4>
+                    <p class="text-center">Beijing, China</p>
+                    <p class="text-center testi-star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></i><i class="fa-solid fa-star"></i></p>
+                    <p class="card-text testi-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla esse perferendis ipsam libero."</p>
+                  </div>
+                </div>
+              
+  
+              <div class="card d-none d-md-block" style="width: 18rem;">
+                <div class="testi-div" style="width: 10rem; height: 10rem;">
+                  <img src="./images/avatar3.jpg" class="card-img-top testi-img " alt="...">
+                </div>
+                <div class="card-body">
+                  <h4 class="testi-name text-center">Olivia</h4>
+                    <p class="text-center">Chicago, United States</p>
+                    <p class="text-center testi-star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                  <p class="card-text testi-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla esse perferendis ipsam libero."</p>
+                </div>
+              </div>
+              </div>
+
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+              <div class="card" style="width: 18rem;">
+                <div class="testi-div" style="width: 10rem; height: 10rem;">
+                  <img src="./images/avatar4.jpg" class="card-img-top testi-img " alt="...">
+                </div>
+                <div class="card-body">
+                  <h4 class="testi-name text-center"> A-Yeong</h4>
+                    <p class="text-center">Seoul, South Korea</p>
+                    <p class="text-center testi-star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                  <p class="card-text testi-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla esse perferendis ipsam libero."</p>
+                </div>
+              </div>
+
+              <div class="card d-none d-md-block" style="width: 18rem;">
+                <div class="testi-div" style="width: 10rem; height: 10rem;">
+                  <img src="./images/avatar5.jpg" class="card-img-top testi-img " alt="...">
+                </div>
+                <div class="card-body">
+                  <h4 class="testi-name text-center">Dalila</h4>
+                    <p class="text-center">Nairobi, Kenya</p>
+                    <p class="text-center testi-star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                  <p class="card-text testi-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla esse perferendis ipsam libero."</p>
+                </div>
+              </div>
+
+              <div class="card d-none d-md-block" style="width: 18rem;">
+                <div class="testi-div" style="width: 10rem; height: 10rem;">
+                  <img src="./images/avatar6.jpg" class="card-img-top testi-img " alt="...">
+                </div>
+                <div class="card-body">
+                  <h4 class="testi-name text-center">Sophia Leon</h4>
+                    <p class="text-center">Vancouver, Canada</p>
+                    <p class="text-center testi-star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                  <p class="card-text testi-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla esse perferendis ipsam libero."</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cards-wrapper">
+              <div class="card" style="width: 18rem;">
+                <div class="testi-div" style="width: 10rem; height: 10rem;">
+                  <img src="./images/avatar7.jpg" class="card-img-top testi-img " alt="...">
+                </div>
+                <div class="card-body">
+                  <h4 class="testi-name text-center">Noah Brown</h4>
+                    <p class="text-center">New York, United States</p>
+                    <p class="text-center testi-star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                  <p class="card-text testi-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla esse perferendis ipsam libero."</p>
+                </div>
+              </div>
+
+              <div class="card d-none d-md-block" style="width: 18rem;">
+                <div class="testi-div" style="width: 10rem; height: 10rem;">
+                    <img src="./images/avatar8.jpg" class="card-img-top testi-img " alt="...">
+                </div>
+                <div class="card-body">
+                  <h4 class="testi-name text-center">Akash Krishna</h4>
+                    <p class="text-center">Mumbai, India</p>
+                    <p class="text-center testi-star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                  <p class="card-text testi-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla esse perferendis ipsam libero."</p>
+                </div>
+              </div>
+
+              <div class="card d-none d-md-block" style="width: 18rem;">
+                <div class="testi-div" style="width: 10rem; height: 10rem;">
+                  <img src="./images/avatar9.jpg" class="card-img-top testi-img " alt="...">
+                </div>
+                <div class="card-body">
+                  <h4 class="testi-name text-center">Isabella John</h4>
+                    <p class="text-center">Birmingham, United Kingdom</p>
+                    <p class="text-center testi-star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
+                  <p class="card-text testi-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla esse perferendis ipsam libero."</p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+<!-- faq section-->
+  <section id="faq" class="faq mt-4 pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h1 class="mb-3 text-center">FAQ</h1>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  What is the best season to visit kerala?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse       collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Best season to visit Kerala is between September to March. During winter you will feel a comfortable climate and pleasant weather with less humidity. Winter is the perfect season to explore lagoons, tranquil canals and spicy plantations of Kerala. People prefer monsoon season from June to August for ayurvedic treatment.
+                </div>
+              </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  How many minimum days are required to explore Kerala ?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  4 days are enough to explore best tourist places in Kerala like Munnar, Thekkady and Alleppey For delightful family trips, 8 to 9 days are enough and for honeymoon couples 4 nights and 5 days are enough for a romantic tour. If you want to try famous adventure activities and some offbeat places then you can extend this trip for 2 or 3 days. 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Is it safe to travel alone in Kerala?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Kerala is safe to travel alone anywhere in Kerala during day-time But during night avoid travelling alone due to chances of pick-pocketing etc and do not walk on the streets alone at night.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  What is the local food of Kerala ?
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Kerala is known as the spice bowl of India. It is famous for its rich heritage of tasty food specially sea-food. Well known for  spicy versions of non vegetarian dishes  Chicken, Meat and Fish (‘Molly’ fish and ‘Karimeen Pollichathu’ Fish). Vegetarian people can try veggie delicacies made with coconut and bananas (Kerala’s ‘Puttu-Kadala’ and ‘Appam-Ishtu). Don’t forget to try Palada Payasam and Halwa which are special desserts of Kerala. </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                  What is Kerala famous for?
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Kerala is known for its scenic natural beauty, tourist attractions, heritage sites, exotic beaches, backwaters, houseboats rides, densely forested mountain ranges, deciduous semi-deciduous jungles that are home to some rare, plant life wildlife species.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact section -->
+  <section id="contact" class="contact pt-2">
+    <div class="container">
+      <h1 class="mb-3 text-center mt-5">Contact Us</h1>
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputName" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleInputPersons" class="form-label">No of Persons</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Please Select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="3">4</option>
+                <option value="3">4+</option>
+              </select>
+            </div>
+            
+            
+            <button type="submit" class="btn btn-primary w-25">Submit</button>
+          </form>
+        </div>
+        <div class="col-sm-3"></div>
+      </div>
+    </div>
+  </section>
+
+  
+    <!-- footer section -->
+    <section class="mt-5" id="footer">
+      
+      <div class="footer">
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-md-4 foot-title">
+              <h3>Travel<span class="o">O</span></h3>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4 pt-2 phone">
+              <p><i class="fa-solid fa-phone"></i>  +91 000-000-0000</p>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-6 col">
+                  <p>MENU</p>
+                    <a href="#">About Us</a>
+                    <a href="#">Why Us</a>
+                    <a href="#">Things to Do</a>
+                    <a href="#">Features</a>
+                </div>
+                <div class="col-6 col">
+                  <p>ABOUT US</p>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Disclosures</a>
+                    <a href="#">Privacy Promise</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 col">
+              <h5>STAY CONNECTED</h5>
+                <form class="d-flex letter pt-2" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Email" aria-label="Search">
+                  <button type="button" class="btn btn-primary">Sign Up</button>
+                </form>
+                <h5 class="pt-3">FOLLOW US</h5>
+                <div class="iconDiv pt-2">
+                  <a href=""><i class="fa-brands fa-instagram fa-xl"></i></a>
+                  <a href=""><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter fa-xl"></i></a>
+                </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-10">
+              <p style="color: #e1e1e1; text-align: center;">&copy;website</span> 2023, All Rights Reserved&reg;Travel<span class="o">O</p>
+            </div>
+            <div class="col-sm-2">
+              <div class="uparrow">
+                <a href="#home"><i class="fa-solid fa-arrow-up fa-xl" style="color: #00040a;"></i></a>
+            </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
